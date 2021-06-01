@@ -1,4 +1,6 @@
 package com.example.firstjetpackcompose
 
-class MainActivity1 {
+import androidx.activity.ComponentActivity
+
+class MainActivity1 : ComponentActivity(){
 }
