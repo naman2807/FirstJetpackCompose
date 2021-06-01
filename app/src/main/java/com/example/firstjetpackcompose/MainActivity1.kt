@@ -51,4 +51,18 @@ The setting has the following meaning:
 
 modifier: Lets you configure the layout. In this case, apply a
 Modifier.padding modifier, which insets the column from the surrounding view.
+
+ADDING IMAGE
+The graphic is added to your layout, but it isn't sized appropriately yet.
+To style the graphic, pass a size Modifier to the call to Image().
+
+height(180.dp): Specifies the height of the image.
+fillMaxWidth(): Specifies that the image should be wide enough to
+fill the layout it belongs to.
+You also need to pass a contentScale parameter to Image():
+
+contentScale = ContentScale.Crop: Specifies that the graphic should
+fill the width of the column, and be cropped if necessary to the
+appropriate height.
+
  */
