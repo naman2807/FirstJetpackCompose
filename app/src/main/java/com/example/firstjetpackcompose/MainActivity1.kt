@@ -39,4 +39,13 @@ fun DefaultPreview(){
 /*
 Using a Column
 The Column function lets you stack elements vertically.
+
+Add style settings to the column
+By passing parameters to the Column call, you can configure the column's
+size and position, and how the column's children are arranged.
+
+The setting has the following meaning:
+
+modifier: Lets you configure the layout. In this case, apply a
+Modifier.padding modifier, which insets the column from the surrounding view.
  */
