@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 
 class MainActivity1 : ComponentActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,4 +22,10 @@ fun NewsStory(){
     Text(text = "This is first text")
     Text(text = "Second")
     Text(text = "Third Text")
+}
+
+@Preview
+@Composable
+fun DefaultPreview(){
+
 }
