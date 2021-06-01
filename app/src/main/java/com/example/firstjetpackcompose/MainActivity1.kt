@@ -25,9 +25,6 @@ fun NewsStory(){
         Text(text = "Second")
         Text(text = "Third Text")
     }
-    Text(text = "This is first text")
-    Text(text = "Second")
-    Text(text = "Third Text")
 }
 
 @Preview
@@ -35,3 +32,8 @@ fun NewsStory(){
 fun DefaultPreview(){
     NewsStory()
 }
+
+/*
+Using a Column
+The Column function lets you stack elements vertically.
+ */
