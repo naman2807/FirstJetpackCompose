@@ -29,4 +29,8 @@ with an XML file, we call composable functions. Jetpack Compose uses a custom Ko
 compiler plugin to transform these composable functions into the app's UI elements. For
 example, the Text() function is defined by the Compose UI library; you call that function
 to declare a text element in your app.
+
+Define a composable function
+Composable functions can only be called from within the scope of other composable
+functions. To make a function composable, add the @Composable annotation.
  */
