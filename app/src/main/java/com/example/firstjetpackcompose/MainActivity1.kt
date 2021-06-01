@@ -74,4 +74,11 @@ contentScale = ContentScale.Crop: Specifies that the graphic should
 fill the width of the column, and be cropped if necessary to the
 appropriate height.
 
+Apply a shape
+One of the pillars of the Material Design System is Shape. Use the
+clip() function to round the corners of the image.
+
+The Shape is invisible, but the graphic is cropped to fit the Shape, so
+it now has slightly rounded corners.
+
  */
