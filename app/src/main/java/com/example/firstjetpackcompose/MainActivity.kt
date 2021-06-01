@@ -18,3 +18,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+/*
+The setContent block defines the activity's layout. Instead of defining the layout contents
+with an XML file, we call composable functions. Jetpack Compose uses a custom Kotlin
+compiler plugin to transform these composable functions into the app's UI elements. For
+example, the Text() function is defined by the Compose UI library; you call that function
+to declare a text element in your app.
+ */
