@@ -21,7 +21,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(text : String){
-    Text(text = text)
+    Text("Hello $text")
+}
+
+@Preview
+@Composable
+fun PreviewGreeting(){
+    Greeting(text = "Naman")
 }
 /*
 The setContent block defines the activity's layout. Instead of defining the layout contents
