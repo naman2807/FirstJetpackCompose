@@ -27,8 +27,12 @@ class MainActivity1 : ComponentActivity(){
 fun NewsStory(){
     Column(Modifier.padding(8.dp)) {
         Image(painter = painterResource(id = R.drawable.image1),
-            contentDescription = null, Modifier.height(180.dp).fillMaxWidth(),
+            contentDescription = null,
+            Modifier
+                .height(180.dp)
+                .fillMaxWidth(),
             contentScale = ContentScale.Crop)
+        Spacer(modifier = Modifier.height(16.dp))
         Text(text = "This is first text")
         Text(text = "Second")
         Text(text = "Third Text")
