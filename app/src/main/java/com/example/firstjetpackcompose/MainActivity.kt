@@ -13,6 +13,8 @@ import com.example.firstjetpackcompose.ui.theme.FirstJetpackComposeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContent {
+            Text("Hello Naman")
+        }
     }
 }
