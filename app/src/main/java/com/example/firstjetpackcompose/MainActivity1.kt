@@ -3,6 +3,7 @@ package com.example.firstjetpackcompose
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.activity.ComponentActivity
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 
 class MainActivity1 : ComponentActivity(){
@@ -13,5 +14,7 @@ class MainActivity1 : ComponentActivity(){
 
 @Composable
 fun NewsStory(){
-
+    Text(text = "This is first text")
+    Text(text = "Second")
+    Text(text = "Third Text")
 }
