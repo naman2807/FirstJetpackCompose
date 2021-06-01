@@ -18,6 +18,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun Greeting(text : String){
+    Text(text = text)
+}
 /*
 The setContent block defines the activity's layout. Instead of defining the layout contents
 with an XML file, we call composable functions. Jetpack Compose uses a custom Kotlin
